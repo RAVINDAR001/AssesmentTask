@@ -8,19 +8,19 @@
       <![CDATA[---database connection disconnected--]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-01-16T19:23:23 IST" name="Default suite" finished-at="2025-01-16T19:23:23 IST" duration-ms="79">
+  <suite started-at="2025-01-18T17:07:08 IST" name="Default suite" finished-at="2025-01-18T17:07:08 IST" duration-ms="84">
     <groups>
     </groups>
-    <test started-at="2025-01-16T19:23:23 IST" name="Default test" finished-at="2025-01-16T19:23:23 IST" duration-ms="79">
+    <test started-at="2025-01-18T17:07:08 IST" name="Default test" finished-at="2025-01-18T17:07:08 IST" duration-ms="84">
       <class name="menSection.Men">
-        <test-method is-config="true" signature="beforeSuiteConfig()[pri:0, instance:menSection.Men@3bb9a3ff]" started-at="2025-01-16T19:23:23 IST" name="beforeSuiteConfig" finished-at="2025-01-16T19:23:23 IST" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="beforeSuiteConfig()[pri:0, instance:menSection.Men@3bb9a3ff]" started-at="2025-01-18T17:07:08 IST" name="beforeSuiteConfig" finished-at="2025-01-18T17:07:08 IST" duration-ms="11" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[---Data base connection Estabilishes---]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeSuiteConfig -->
-        <test-method is-config="true" signature="beforeMethodConfig()[pri:0, instance:menSection.Men@3bb9a3ff]" started-at="2025-01-16T19:23:23 IST" name="beforeMethodConfig" finished-at="2025-01-16T19:23:23 IST" duration-ms="30" status="FAIL">
+        <test-method is-config="true" signature="beforeMethodConfig()[pri:0, instance:menSection.Men@3bb9a3ff]" started-at="2025-01-18T17:07:08 IST" name="beforeMethodConfig" finished-at="2025-01-18T17:07:08 IST" duration-ms="41" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
@@ -69,7 +69,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodConfig -->
-        <test-method signature="toClickMensection()[pri:0, instance:menSection.Men@3bb9a3ff]" started-at="2025-01-16T19:23:23 IST" name="toClickMensection" finished-at="2025-01-16T19:23:23 IST" duration-ms="0" status="SKIP">
+        <test-method signature="toClickMensection()[pri:0, instance:menSection.Men@3bb9a3ff]" started-at="2025-01-18T17:07:08 IST" name="toClickMensection" finished-at="2025-01-18T17:07:08 IST" duration-ms="0" status="SKIP">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
@@ -118,15 +118,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- toClickMensection -->
-        <test-method is-config="true" signature="afterMethodConfig()[pri:0, instance:menSection.Men@3bb9a3ff]" started-at="2025-01-16T19:23:23 IST" name="afterMethodConfig" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1737035603609" status="SKIP">
+        <test-method is-config="true" signature="afterMethodConfig()[pri:0, instance:menSection.Men@3bb9a3ff]" started-at="2025-01-18T17:07:08 IST" name="afterMethodConfig" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1737200228188" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodConfig -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:menSection.Men@3bb9a3ff]" started-at="2025-01-16T19:23:23 IST" name="afterClass" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1737035603612" status="SKIP">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:menSection.Men@3bb9a3ff]" started-at="2025-01-18T17:07:08 IST" name="afterClass" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1737200228190" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterSuitConfig()[pri:0, instance:menSection.Men@3bb9a3ff]" started-at="2025-01-16T19:23:23 IST" name="afterSuitConfig" finished-at="2025-01-16T19:23:23 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterSuitConfig()[pri:0, instance:menSection.Men@3bb9a3ff]" started-at="2025-01-18T17:07:08 IST" name="afterSuitConfig" finished-at="2025-01-18T17:07:08 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[---database connection disconnected--]]>

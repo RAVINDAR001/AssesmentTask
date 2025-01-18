@@ -156,11 +156,11 @@ public class WebDriverutility {
 		/**
 		 * This method is used to move cursor to an element
 		 * @param driver
-		 * @param element
+		 * @param string
 		 */
-		public void ToMoveToElement(WebDriver driver,WebElement element) {
+		public void ToMoveToElement(WebDriver driver,WebElement string) {
 			Actions action=new Actions(driver);
-			action.moveToElement(element).perform();
+			action.moveToElement(string).perform();
 			
 		}
 		/**

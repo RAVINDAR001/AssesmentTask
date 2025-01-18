@@ -28,7 +28,7 @@ public class BaseClass {
 	public static WebDriver sdDriver;
 
 	
-	
+	ExcelFileUtility eutil=new ExcelFileUtility();
 	WebDriverutility wutil=new WebDriverutility();
 	propertyfileUtilty putil=new propertyfileUtilty();
 	public WebDriver driver = null;

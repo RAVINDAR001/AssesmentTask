@@ -12,13 +12,28 @@ public class HomePage {
 	}
 	
 	@FindBy(id="men")
-	WebElement mens;
+	private WebElement mens;
 	
+	public WebElement getAccountSeting() {
+		return AccountSeting;
+	}
+
+	public WebElement getMyWallet() {
+		return MyWallet;
+	}
+
 	@FindBy(xpath="//div[contains(text(),'V')]")
-	WebElement setting;
+	 private WebElement setting;
 	
 	@FindBy(xpath="//li[contains(text(),'Logout')]")
-     WebElement logout;
+   private  WebElement logout;
+	
+	@FindBy(xpath="//div[@class=\"MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-bjoz8z\"]")
+	 private WebElement AccountSeting;
+	
+	@FindBy(xpath="(//span[@class=\"MuiTouchRipple-root css-w0pj6f\"])[30]")
+	private WebElement MyWallet;
+
 
 	public WebElement getMens() {
 		return mens;
