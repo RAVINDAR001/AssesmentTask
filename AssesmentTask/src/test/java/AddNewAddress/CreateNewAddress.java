@@ -40,7 +40,7 @@ public class CreateNewAddress extends BaseClass{
 		 da.getNameTextFeild();
 		 //fetch data from excel
 		 ExcelFileUtility eutil =new ExcelFileUtility();
-		 String name = eutil.toReadDataFromExcelFile("Address", 1, 2);
+		 String name = eutil.toReadDataFromExcelFile("Address", 2, 2);
 		 System.out.println(name);
 		 String House = eutil.toReadDataFromExcelFile("Address", 2, 3);
 		  System.out.println(House);
